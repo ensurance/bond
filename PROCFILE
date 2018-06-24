@@ -1,0 +1,2 @@
+server: ./node_modules/nodemon/bin/nodemon.js ./build/server.js
+watch: tsc -w
