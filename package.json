@@ -1,0 +1,54 @@
+{
+  "name": "bond",
+  "description": "Quality Ensurance Agent for pull requests.",
+  "keywords": [],
+  "author": "HowToHireMe",
+  "license": "MIT",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ensurance/bond.git"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/compression": "0.0.36",
+    "@types/dotenv": "^4.0.3",
+    "@types/errorhandler": "0.0.32",
+    "@types/es6-shim": "^0.31.37",
+    "@types/express": "^4.16.0",
+    "@types/express-flash": "0.0.0",
+    "@types/express-session": "^1.15.10",
+    "@types/lusca": "^1.5.0",
+    "@types/winston": "^2.3.9",
+    "foreman": "^3.0.1",
+    "nodemon": "^1.17.5",
+    "tslint": "^5.9.1",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.2",
+    "dotenv": "^6.0.0",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.6",
+    "lusca": "^1.6.0",
+    "pug": "^2.0.3",
+    "winston": "^2.3.7"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "node ./build/server.js",
+    "development": "foreman start",
+    "production": "foreman start -f Procfile.production",
+    "test": "",
+    "lint": "tslint -c ./.quality/.tslint.yml -p tsconfig.json 'src/**/*.ts', 'test/**/*.ts'",
+    "release": "npm run build && npm run lint && npm run test"
+  },
+  "bugs": {
+    "url": "https://github.com/ensurance/bond/issues"
+  },
+  "homepage": "https://github.com/ensurance/bond#readme"
+}
