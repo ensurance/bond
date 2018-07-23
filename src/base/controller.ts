@@ -28,7 +28,7 @@ export default class Controller {
     next();
   }
 
-  public routes() {
+  public export() {
     return this.router;
   }
 }
