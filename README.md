@@ -9,6 +9,8 @@ Quality Ensurance agent for pull requests in you repository.
 ### Files structure
 ```
 ├── /src/                       # The source code of the application
+│   ├── /base/                  # Base
+│   │   └── *.ts                # Base classes files
 │   ├── /controllers/           # Controllers
 │   │   ├── *.controller.ts     # 
 │   │   ├── controller.ts       # Main controllers class

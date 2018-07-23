@@ -1,5 +1,5 @@
 import { Router, Request, Response } from 'express';
-import Controller from './controller';
+import Controller from '../base/controller';
 
 class WelcomeController extends Controller {
   protected index(request: Request, response: Response) {
@@ -7,4 +7,4 @@ class WelcomeController extends Controller {
   }
 }
 
-export const welcomeController = new WelcomeController().routes();
+export const welcomeController = new WelcomeController().export();
