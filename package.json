@@ -1,7 +1,9 @@
 {
   "name": "bond",
   "description": "Quality Ensurance Agent for pull requests.",
-  "keywords": [],
+  "keywords": [
+
+  ],
   "author": "HowToHireMe",
   "license": "MIT",
   "version": "0.1.0",
@@ -35,7 +37,7 @@
     "express-session": "^1.15.6",
     "lusca": "^1.6.0",
     "pug": "^2.0.3",
-    "winston": "^2.3.7"
+    "winston": "^3.1.0"
   },
   "scripts": {
     "build": "tsc",
