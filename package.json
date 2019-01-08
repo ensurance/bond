@@ -1,7 +1,9 @@
 {
   "name": "bond",
   "description": "Quality Ensurance Agent for pull requests.",
-  "keywords": [],
+  "keywords": [
+
+  ],
   "author": "HowToHireMe",
   "license": "MIT",
   "version": "0.1.0",
@@ -23,7 +25,7 @@
     "foreman": "^3.0.1",
     "nodemon": "^1.17.5",
     "tslint": "^5.9.1",
-    "typescript": "^2.9.2"
+    "typescript": "^3.2.2"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
