@@ -22,7 +22,7 @@
     "@types/winston": "^2.3.9",
     "foreman": "^3.0.1",
     "nodemon": "^1.17.5",
-    "tslint": "^5.9.1",
+    "tslint": "^6.1.2",
     "typescript": "^3.2.2"
   },
   "dependencies": {
