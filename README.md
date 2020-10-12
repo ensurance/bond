@@ -2,7 +2,12 @@ Quality Ensurance agent for pull requests in you repository.
 
 ## Features
 
-- TODO
+The main goal of this tool is to provide an advanced heuristics for PRs quality:
+
+* PR description
+* Title
+* Link to specific ticket
+* Specs presence
 
 ## Getting started
 
