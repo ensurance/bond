@@ -8,6 +8,7 @@ The main goal of this tool is to provide an advanced heuristics for PRs quality:
 * Title
 * Link to specific ticket
 * Specs presence
+* Checklists
 
 ## Getting started
 
