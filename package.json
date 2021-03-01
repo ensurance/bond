@@ -34,7 +34,7 @@
     "express-flash": "0.0.2",
     "express-session": "^1.15.6",
     "lusca": "^1.6.0",
-    "pug": "^3.0.0",
+    "pug": "^3.0.2",
     "winston": "^3.1.0"
   },
   "scripts": {
